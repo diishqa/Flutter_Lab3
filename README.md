@@ -1,17 +1,9 @@
-# flutter_lab3_app
+# Лабораторная работа №3. Flutter: структура UI и компонентный подход
+## Кузьмина Диана ИСП-232
+___
+### **Цель работы**: Научиться строить UI через дерево виджетов, создавать собственные виджеты-классы, разбивать код на файлы и передавать данные через параметры
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img](img/step6_K.png)
+___
+**BuildContext** — это объект, который содержит информацию о положении виджета в дереве. Flutter передаёт его автоматически при каждой перерисовке. Пока он нам не нужен напрямую, но метод без него работать не будет.
+@**override** вы уже знаете из Kotlin и C# — он сигнализирует что мы переопределяем метод родительского класса. Аннотация @override не обязательна для компиляции, но является хорошей практикой, потому что позволяет компилятору проверить, что мы действительно переопределяем метод родительского класса.
